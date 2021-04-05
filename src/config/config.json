@@ -1,0 +1,61 @@
+{
+  "SSH Brute-Force Options": {
+    "enable_ssh_bf": [
+      "false",
+      "Enable this option to use the SSH brute-force tool on the target",
+      "true,false"
+    ],
+    "ssh_bf_hostname": [
+      "",
+      "The IPv4 address of the target device in the SSH brute-force attack",
+      ""
+    ],
+    "ssh_bf_port": [
+      "22",
+      "The port number to use in the SSH brute-force attack",
+      ""
+    ],
+    "ssh_bf_username": [
+      "",
+      "The username or absolute file path containing usernames to use in brute-force attack",
+      ""
+    ],
+    "ssh_bf_password": [
+      "",
+      "The password or absolute file path containing passwords to use in brute-force attack",
+      ""
+    ]
+  },
+  "Enable Password Brute-Force Options": {
+    "enable_password_bf": [
+      "false",
+      "Enable this option to use the 'enable' Password brute-force tool on the target",
+      "true,false"
+    ],
+    "password_bf_hostname": [
+      "",
+      "The IPv4 address of the target device in the 'enable' brute-force attack",
+      ""
+    ],
+    "password_bf_port": [
+      "22",
+      "The port number to use in the 'enable' brute-force attack",
+      ""
+    ],
+    "password_bf_username": [
+      "",
+      "The username to use in the 'enable' brute-force attack, needed to login",
+      ""
+    ],
+    "password_bf_password": [
+      "",
+      "The password to use in the 'enable' brute-force attack, needed to login",
+      ""
+    ],
+    "enable_password_wordlist": [
+      "",
+      "The absolute file path containing passwords to use in the 'enable' password attack",
+      ""
+    ]
+  }
+}
